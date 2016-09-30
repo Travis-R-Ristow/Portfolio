@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+}
+html{
+	background-color: #367d36;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+body{
+	height: 1120px;
+}
+
+				/*UNIVERSUAL CLASS START*/
+.underline{
+	text-decoration: underline;
+}
+.NOunderline{
+	text-decoration: none;
+}
+.hover:hover{
+	color: red;
+}
+
+				/*UNIVERSUAL CLASS ENDs*/
+
+				/*DIV COVER STARTS*/
+#cover{
+	background-color: rgb(255,255,255);
+	background-image: url('mountCover1.jpeg');
+	opacity: 0.55;
+	background-size: 100% auto;
+	background-position: 0% 75%; 
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 400px;
+
+}
+	#header{
+		position: relative;
+		top: -275px;
+		color: black;
+		text-align: center;
+		font-weight: 700;
+		font-size: 42pt;
+		text-shadow: 5px 5px 75px white;
+	}
+				/* DIV COVER ENDs*/
+
+				/* DIV NAV STARTS*/
+#nav{	
+	border: 5px solid black;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-left: none;
+	text-align: center;
+	display: inline-block;
+	/*width: 5%;*/
+	width: 110px;
+	background-color: #70c270;
+	padding: 10px;
+	position: fixed;
+	top: 320px;
+}
+	#nav a{
+		width: 80px;
+		color: black;
+		display: block;
+		border-bottom: 3px solid black;
+		text-decoration: none;
+		padding: 5px;
+		margin: 10px;
+		margin-left: 15px;
+		margin-bottom: 15px;
+	}
+	#nav a:hover{
+		color: red;
+	}
+				/* DIV NAV ENDs*/
+
+				/* DIV ME STARTS*/
+#me{
+	margin: auto;
+	background-color: #6699ff;
+	position: relative;
+	top: -200px;
+	width: 720px;
+	border: 3px solid black;
+	border-radius: 40px	;
+	border-bottom-left-radius: 75px;
+	border-top-left-radius: 65px;
+}
+	#me img{
+		border-radius: 25%;
+		display: inline-block;
+		height: 300px;
+	}
+	#aboutMe{
+		margin-left: 20px;
+		vertical-align: top;
+		width: 420px;
+		display: inline-block;
+	}
+		#aboutMe h2{
+				text-align: center;
+				padding-bottom: 25px;
+				font-size: 30px;
+			}
+			#aboutMe h4{
+				text-indent: 50px;
+				display: inline-block;
+				width: 400px;
+			}
+				/* DIV ME ENDs*/
+
+				/*DIV LINKS STARTS*/
+#links{
+	float: right;		/* Float REMEMBER TAKE OFF FOR MEDIA*/
+	margin-top: -420px;
+	display: inline-block; 
+	width: 225px;
+	background-color: #6699ff;
+	border: 3px solid black;
+	border-radius: 25px;
+	padding: 10px;
+}
+	#links dl{
+
+	}
+	#links a{
+	text-decoration: none;
+	color: black;
+	}
+	#links a:hover{
+	color: red;
+	}
+	#links dt{
+		display: block;
+		margin: auto;
+		text-align: center;
+		border-bottom: 5px solid black;
+		width: 150px;
+	}
+	#links dd{
+		font-size: 16px;
+		padding-bottom: 10px;
+
+	}
+
+				/*DIV LINKS ENDs*/
+
+				/* DIV SITES STARTS*/
+#sites{
+	display: block;
+	margin: auto;
+	margin-top: -175px;
+	width: 1125px;
+}
+	.preview{
+		background-color: #6699ff;
+		margin-left: 30px;
+		display: inline-block;
+		width: 520px;
+		height: 380px;
+		border: 4px solid black;
+		text-align: center;
+		vertical-align: top;
+	}
+	.preview img{
+		border-bottom: 2px solid black;
+		width: 520px;
+	}
+	.preview h2{
+		padding-bottom: 15px;
+	}
+				/* DIV SITES ENDs*/
